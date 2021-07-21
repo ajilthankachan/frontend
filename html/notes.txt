@@ -1,0 +1,45 @@
+HTML - for displaying content
+HTML - Hypertext Markup Language
+Current version -- HTML5
+
+opening tag - <>
+opening tag - </>
+
+Structure
+
+<!DOCTYPE html>     ---------specify the version of HTML
+<html lang="en">
+<head>              --------- metadata passed to server
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> -----------------browser tab title
+</head>
+<body>
+    ------------ contents that needs to be displayed
+</body>
+</html>
+
+hyperlink -- for redirecting to another page..
+
+semantic tags -A semantic element clearly describes its meaning 
+to both the browser and the developer.
+Examples of non-semantic elements: <div> and <span> - 
+Tells nothing about its content.
+
+Examples of semantic elements: <form>, <table>, and <article> - 
+Clearly defines its content.
+
+Element types
+1 - Block element  (complete width of the browser)
+<p> 
+<h>
+<ol>
+<ul>
+
+2 - Inline element (only the word space)
+<td>
+<img>
+<href>
+
+Form - form tag is a container tag

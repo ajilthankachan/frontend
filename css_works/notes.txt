@@ -1,0 +1,14 @@
+CSS - Cascading Style Sheets
+styles can given in
+
+inline styles, intenal css and external css
+
+linking style sheet 
+
+
+
+syntax >>
+
+tag name/classname/id {
+    property:value
+}

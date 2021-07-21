@@ -1,0 +1,27 @@
+div {
+  float: left;
+  width: 30%;
+  border: solid 2px #5e068a;;
+  min-height : 600px;
+  margin-left: 20px;
+}
+
+div img {
+  width: 100%;
+}
+
+/* css unit % - relative, dependent on the parent class */
+/* pixel - absolute */
+
+.row h3 {
+    color: #5e068a;
+    font-family: 'Mulish', sans-serif;
+    padding: 20px;
+}
+
+.row p {
+    font-size: 14px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 28px;
+    padding: 20px;
+}

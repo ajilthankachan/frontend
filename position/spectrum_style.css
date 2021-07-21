@@ -1,0 +1,154 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  color: white;
+  font-size: 50px;
+}
+
+.row-1 {
+  /* border: solid 5px white; */
+  width: 40%;
+  height: 150px;
+  /* background-color: teal; */
+  position: absolute;
+  left: 32%;
+}
+
+.col-1 {
+  width: 105px;
+  height: 150px;
+  float: left;
+  margin-left: 10px;
+}
+
+/* pseudo columns */
+.col-1:nth-child(1) {
+  background-color: turquoise;
+}
+
+.col-1:nth-child(2) {
+  background-color: coral;
+}
+
+.col-1:nth-child(3) {
+  background-color: blueviolet;
+}
+
+.col-1:nth-child(4) {
+  background-color: darkred;
+}
+
+.col-1:nth-child(5) {
+  background-color: goldenrod;
+}
+
+.row-2 {
+  width: 70%;
+  height: 220px;
+  /* background-color: gray; */
+  position: absolute;
+  top: 30%;
+  left: 23.9%;
+  /* border: solid 5px white; */
+  padding: 15px;
+}
+
+.col-2 {
+  width: 105px;
+  height: 150px;
+  float: left;
+  margin-left: 10px;
+}
+
+
+/* pseudo columns */
+.col-2:nth-child(1) {
+  background-color: khaki;
+}
+
+.col-2:nth-child(2) {
+  background-color: lawngreen;
+}
+
+.col-2:nth-child(3) {
+  background-color: tomato;
+}
+
+.col-2:nth-child(4) {
+  background-color: navajowhite;
+}
+
+.col-2:nth-child(5) {
+  background-color: orangered;
+}
+
+.col-2:nth-child(6) {
+  background-color: hotpink;
+}
+
+.col-2:nth-child(7) {
+  background-color: indigo;
+}
+
+
+.row-3 {
+  width: 70%;
+  height: 220px;
+  /* background-color: gray; */
+  position: absolute;
+  top: 52%;
+  left: 16.7%;
+  /* border: solid 5px white; */
+  padding: 15px;
+}
+
+.col-3 {
+  width: 105px;
+  height: 150px;
+  float: left;
+  margin-left: 10px;
+}
+
+
+/* pseudo columns */
+.col-3:nth-child(1) {
+  background-color: palegreen;
+}
+
+.col-3:nth-child(2) {
+  background-color: rebeccapurple;
+}
+
+.col-3:nth-child(3) {
+  background-color: salmon;
+}
+
+.col-3:nth-child(4) {
+  background-color: teal;
+}
+
+.col-3:nth-child(5) {
+  background-color: violet;
+}
+
+.col-3:nth-child(6) {
+  background-color: yellow;
+}
+
+.col-3:nth-child(7) {
+  background-color: sienna;
+}
+.col-3:nth-child(8) {
+  background-color: powderblue;
+}
+
+.col-3:nth-child(9) {
+  background-color: papayawhip;
+}

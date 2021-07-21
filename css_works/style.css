@@ -1,0 +1,21 @@
+body {
+    background-color: #f0f2f5;
+}
+
+h1 {
+    color: #1877f2;
+    text-align: center;
+    /* background-color: white; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hone {
+    color: hsl(100, 98%, 57%);
+}
+
+.btn {
+    background-color: #5e068a;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
