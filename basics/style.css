@@ -1,0 +1,47 @@
+/* by :default position will be statics */
+body {
+  height: 1500px;
+}
+p {
+  text-align: center;
+  font-size: 36px;
+  color: palegoldenrod;
+}
+.row {
+  width: 600px;
+  height: 400px;
+  background-color: teal;
+  /* parent given relative */
+  position: relative;
+}
+
+.col {
+  width: 200px;
+  height: 200px;
+  background-color: thistle;
+  position: relative;
+  left: 100%;
+}
+
+.section {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: absolute;
+  left: 100%;
+}
+.row-1 {
+  width: 600px;
+  height: 200px;
+  background-color: violet;
+  position: fixed;
+  left: 70%;
+}
+
+.stk {
+  width: 70%;
+  height: 50px;
+  background-color: olive;
+  position: sticky;
+  top: 10px;
+}

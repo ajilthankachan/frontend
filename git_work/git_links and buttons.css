@@ -1,0 +1,45 @@
+a {
+  font-size: small;
+  margin-left: 10px;
+  color: aqua;
+  /* to remove underline */
+  text-decoration: none;
+}
+/* psedoselector - to change state while hovering */
+a:hover {
+    color: coral;
+}
+/* a:visited {
+    color:white;
+} */
+a:active{
+    color: green;
+}
+
+.login a, .createaccount a{
+  float: right;
+}
+
+/* Button Styling */
+
+.login button{
+  width:100%;
+  margin-top: 10px;
+  color: white;
+  background-color: #08961f;
+  height: 30px;
+  border: 2px solid coral;
+  font-size: 14px;
+  font-weight: 700;
+  /* line-height: 20px; */
+  padding: 5px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login button:hover {
+    color: #08961f;
+    background-color: coral;
+    font-weight: 700;
+    border: 2px solid #08961f;
+}

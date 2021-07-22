@@ -1,35 +1,73 @@
+/* Complete reset of margin */
+/* * {
+  margin:0;
+  padding:0;
+  include padding to width of the element
+  box-sizing: border-box;
+} */
+
+/* Backgrounds and Borders */
 body {
-  background-color: black;
+  background-color: #26272c;
+  background-image: url("./pngwing.com.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /* background-size: cover; entire container*/
+  /* all properties can be used in background property */
+  /* to fix background at a position - background attachment */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+  color: lightgray;
 }
 
 img {
   width: 100px;
   height: 100px;
-  padding-left: 46.5%;
+  margin: 0 31%;
 }
 
 h1 {
   text-align: center;
-}
-.main {
-  padding-left: 44.5%;
-  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
 }
 
 .login {
-  border: 1px white solid;
+  border: 2px lightslategrey solid;
   padding: 15px;
+  margin-bottom: 20px;
+  /* border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  width: 250px;
+  border-radius: 20px;
+}
+/* .login label {
   margin-bottom: 10px;
+} */
+
+.login input {
+  width: 97%;
+  height: 20px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  background-color: rgb(210, 216, 221);
+  margin-right: 20px;
+  border: 2px lightslategrey solid;
+  border-radius: 5px;
 }
 
 .createaccount {
-  border: 1px white solid;
+  width: 250px;
+  border: 2px lightslategrey solid;
   padding: 15px;
-  margin-bottom: 100px;
-}
-
-a {
-  font-size: small;
-  font: rgb(22, 146, 204);
-  margin-left: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
 }
