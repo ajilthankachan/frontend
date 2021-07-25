@@ -1,29 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  background-color: black;
+  background-color: rgb(17, 172, 172);
+  margin: 0;
 }
-.header {
-  text-align: center;
-  color: coral;
-  padding: 10px;
-  background-color: rgb(219, 221, 183);
-  border: 5px solid coral;
-  border-radius: 30px;
-  margin-bottom: 10px;
-  position: sticky;
-  top: 10px;
-}
+
 .row-external {
   width: 100%;
   display: flex;
+  margin-top: 15px;
 }
 
 .row-internal {
   min-width: 300px;
   min-height: 730px;
-  border: solid 5px coral;
+  border: solid 5px darkred;
   border-radius: 30px;
   margin: 5px;
-  background-color: lightsteelblue;
+  background-color: teal;
   flex: 1;
 }
 
@@ -54,3 +50,39 @@ img {
   padding: 20px;
   font-size: 20px;
 }
+
+/* Header */
+
+header {
+  position: sticky;
+  top: 10px;
+  background-color: teal;
+  width: 100%;
+  padding: 20px;
+  border: 5px solid darkred;
+  border-radius: 20px;
+  /* font-weight: bold; */
+  font-size: xx-large;
+}
+.container {
+  display:flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 10px;
+  
+}
+
+.container a {
+  text-decoration: none;
+  margin-right: 25px;
+  color: darkred;
+  /* padding: 10px; */
+  width: auto;
+  height: 100%;
+}
+
+.container a:hover {
+  background-color: darkred;
+  color:teal;
+}
+
