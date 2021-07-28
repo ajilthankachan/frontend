@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: purple;
+    display: flex;
+    /* justify-content: space-evenly; */
+    position: relative;
+}
+
+.box-1 {
+    /* margin: 50px; */
+    padding: 50px;
+    background-color: red;
+    width: 25%;
+    right:0;
+    top: 0;
+    position: absolute;
+}
+
+.box-2 {
+    margin: 50px;
+    padding: 50px;
+    background-color: teal;
+    width: 50%;
+}
+
+p {
+    font-size: 50px;
+}
