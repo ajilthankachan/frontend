@@ -1,0 +1,16 @@
+li {
+  display: inline;
+  /* width cannot be used on inline */
+}
+li a {
+  padding-right: 20px;
+}
+
+img {
+  /* margin property can be applied on inline property after applying 
+    display: block property */
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 200px;
+}

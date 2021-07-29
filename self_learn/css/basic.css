@@ -4,29 +4,53 @@
 }
 
 body {
-    background-color: purple;
-    display: flex;
-    /* justify-content: space-evenly; */
-    position: relative;
-}
+    /* background image properties */
+    /* background: url(https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80); */
+    /* background-size: cover; */
 
+    /* background properties -linear-gradient */
+    /* background: linear-gradient(to right, coral, teal, purple); */
+    /* background: linear-gradient(to bottom right, rgb(128, 0, 128), rgba(128, 0, 128, 0)); */
+    background: linear-gradient(215deg, rgb(128, 0, 128), rgba(128, 0, 128, 0));
+ 
+    /* background properties -radial-gradient */
+    background: radial-gradient(purple, lightgreen);
+    height: 900px;
+    width: auto;
+    background: url(https://images.unsplash.com/photo-1459262838948-3e2de6c1ec80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=749&q=80);
+    background-size: cover;
+    /* float: right; */
+}
+.upper {
+    text-transform: uppercase;
+}
 .box-1 {
-    /* margin: 50px; */
-    padding: 50px;
-    background-color: red;
-    width: 25%;
-    right:0;
-    top: 0;
-    position: absolute;
+    height: 300px;
+    width:600px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+    font-size: 25px;
+    /* font-weight: bold; */
+    color: gold;
+    text-align: justify;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, rgb(128, 0, 128), rgba(128, 0, 128, 0));
+    border: 5px rgb(35, 235, 218) solid;
+
 }
 
+.container {
+    float: left;
+}
 .box-2 {
-    margin: 50px;
-    padding: 50px;
-    background-color: teal;
-    width: 50%;
-}
-
-p {
-    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color: rgb(238, 215, 8);
+    width:600px;
+    padding: 20px;
+    margin: 20px;
+    background: linear-gradient(120deg, rgb(128, 0, 128), rgba(128, 0, 128, 0));
+    border: 5px rgb(35, 235, 218) solid;
 }

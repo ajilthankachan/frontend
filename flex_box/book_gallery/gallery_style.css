@@ -58,7 +58,7 @@ header {
   top: 10px;
   background-color: teal;
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
   border: 5px solid darkred;
   border-radius: 20px;
   /* font-weight: bold; */
@@ -69,19 +69,25 @@ header {
   justify-content: space-around;
   position: sticky;
   top: 10px;
-  
 }
 
-.container a {
+.sidemenu {
+  list-style: none;
+}
+
+.sidemenu li {
+    float: right;
+}
+
+.sidemenu li a {
+  display: block;
   text-decoration: none;
-  margin-right: 25px;
   color: darkred;
+  padding: 15px 25px;
   /* padding: 10px; */
-  width: auto;
-  height: 100%;
 }
 
-.container a:hover {
+.sidemenu li a:hover {
   background-color: darkred;
   color:teal;
 }
